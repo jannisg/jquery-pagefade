@@ -1,0 +1,148 @@
+/* Tables */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	margin: 0;
+	padding: 0;
+}
+th, td {
+	text-align: left;
+	font-weight: normal;
+}
+/* Image Borders */
+a img,:link img,:visited img { border:none }
+/* Lists */
+ol, ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/* Code/No Wrap */
+pre,code{
+	white-space: pre;
+	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+/* Typography */
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+}
+h1 {font-size: 24px;}
+h2 {font-size: 20px;}
+h3 {font-size: 18px;}
+h4 {font-size: 15px;}
+h5 {font-size: 13px;}
+h6 {font-size: 11px;}
+/* Paragraphs */
+p  {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	font-size: 12px;
+}
+/* Links */
+a,
+a:visited {
+	text-decoration: underline;
+	color: #000;
+	outline: 0;
+	border: none;
+}
+a:hover,
+a:active,
+a:focus {
+	color: #ff0000;
+	text-decoration: underline;
+}
+/* ==================== */
+/* = START STYLESHEET = */
+/* ==================== */
+html {
+	overflow-y: scroll;
+}
+body {
+	font: 14px/1 Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color: #ccc;
+	margin: 0;
+	padding: 0;
+}
+/* ================== */
+/* = GENERAL LAYOUT = */
+/* ================== */
+header,
+nav,
+hgroup,
+section,
+article,
+aside,
+footer {
+	display: block;
+}
+#main {
+	width: 900px;
+	padding: 30px 20px;
+	
+	background-color: #fff;
+	border: 1px solid #eee;
+	
+	margin: 50px auto;
+}
+/* ============== */
+/* = TYPOGRAPHY = */
+/* ============== */
+h1,h2,h3,h4,h5,h6 {
+	
+}
+h1 {
+	font: bold 36px/1 "Helvetica Neue", Arial, Helvetica, Calibri, sans-serif;
+	margin-bottom: 20px;
+}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+p {
+	font: 15px/1.45 "Helvetica Neue", Arial, Helvetica, Calibri, sans-serif;
+	margin-bottom: 12px;
+}
+a, a:visited {
+	color: #555;
+	outline: 0;
+	border: none;
+	font: 12px/1 "Times New Roman",Times,Georgia,serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+a:hover, a:active, a:focus {
+	color: #222;
+	text-decoration: underline;
+}
+.controls {
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.prev {
+	float: left;
+}
+.next {
+	float: right;
+}
+/* ========= */
+/* = FORMS = */
+/* ========= */
+form {}
+fieldset {}
+legend {}
+label {}
+input {}
+textarea {}
+button {}
+/* ========= */
+/* = PAGES = */
+/* ========= */
